@@ -7,7 +7,11 @@
 }
 
 .Header {
-  height: 15vh;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .Games {
@@ -22,4 +26,17 @@
   padding: 20px;
   border-radius: 15px;
   margin: 5px;
+}
+
+.SearchArea {
+  margin: 10px;
+}
+
+.FilterArea {
+  margin: 5px;
+}
+
+.FilterArea button {
+  margin: 5px;
+  width: 100px;
 }

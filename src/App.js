@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import AppState from "./state/AppState";
-import Games from "./components/Games";
+import { Header, Games } from "./components";
 
 const App = () => {
   return (
     <AppState>
       <div className="App">
         <header className="Header">
-          <h1>Games Arena</h1>
+          <Header />
         </header>
         <div className="Games">
           <Games />

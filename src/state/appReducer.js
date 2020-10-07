@@ -6,6 +6,12 @@ export default (state, { type, payload }) => {
         apiData: payload,
       };
 
+    case "FILTERED_LIST":
+      return {
+        ...state,
+        filteredList: payload,
+      };
+
     default:
       return state;
   }
