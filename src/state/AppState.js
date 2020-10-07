@@ -18,18 +18,13 @@ const AppState = (props) => {
   }, [apiData]);
 
   const callApi = () => {
-    fetch(
-      "http://starlord.hackerearth.com/gamesarena",
-      {
-        method: "GET",
-        redirect: "follow",
-      }
-    )
+    fetch(`http://starlord.hackerearth.com/gamesarena`)
       .then(async (response) => {
         let res = await response.json();
-        dispatch({ type: "LOAD_API_DATA", payload: res.results });
+        res.shift();
+        dispatch({ type: "LOAD_API_DATA", payload: res });
       })
-      .catch((error) => console.log("error", error));
+      .catch((error) => console.log("Fetch Error:", error));
   };
 
   return (

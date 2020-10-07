@@ -1,6 +1,25 @@
 .App {
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+
+.Header {
+  height: 15vh;
+}
+
+.Games {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.GameItem {
+  width: 30%;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 5px;
 }

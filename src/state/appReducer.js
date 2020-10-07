@@ -3,6 +3,7 @@ export default (state, { type, payload }) => {
     case "LOAD_API_DATA":
       return {
         ...state,
+        apiData: payload,
       };
 
     default:
