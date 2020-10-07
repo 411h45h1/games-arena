@@ -36,8 +36,6 @@ const AppState = (props) => {
       });
     } else {
       let resObj = apiData.filter((obj) => obj.platform === filterTerm);
-      console.log("filterTerm", filterTerm);
-      console.log("resObj", resObj);
 
       dispatch({
         type: "FILTERED_LIST",

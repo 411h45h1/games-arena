@@ -1,9 +1,12 @@
+* {
+  background-color: antiquewhite;
+}
+
 .App {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: antiquewhite;
 }
 
 #Header {
@@ -30,11 +33,17 @@
 }
 
 .GameItem {
-  width: 30%;
-  border: 1px solid black;
+  border: 5px solid black;
   padding: 20px;
   border-radius: 15px;
   margin: 5px;
+}
+
+.GameItem:hover {
+  border: 0;
+  -webkit-box-shadow: 9px 7px 47px 10px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: 9px 7px 47px 10px rgba(0, 0, 0, 0.33);
+  box-shadow: 9px 7px 47px 10px rgba(0, 0, 0, 0.33);
 }
 
 .SearchArea {
