@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.661548ac.chunk.css",
-    "main.js": "/static/js/main.335fdafb.chunk.js",
-    "main.js.map": "/static/js/main.335fdafb.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.852105bc.js",
-    "runtime-main.js.map": "/static/js/runtime-main.852105bc.js.map",
-    "static/css/2.f3cffc9e.chunk.css": "/static/css/2.f3cffc9e.chunk.css",
-    "static/js/2.ef82b97d.chunk.js": "/static/js/2.ef82b97d.chunk.js",
-    "static/js/2.ef82b97d.chunk.js.map": "/static/js/2.ef82b97d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.b1c7a0df9c38a7a6330edc6c3d96f29d.js": "/precache-manifest.b1c7a0df9c38a7a6330edc6c3d96f29d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.f3cffc9e.chunk.css.map": "/static/css/2.f3cffc9e.chunk.css.map",
-    "static/css/main.661548ac.chunk.css.map": "/static/css/main.661548ac.chunk.css.map",
-    "static/js/2.ef82b97d.chunk.js.LICENSE.txt": "/static/js/2.ef82b97d.chunk.js.LICENSE.txt"
+    "main.css": "/games-arena/static/css/main.661548ac.chunk.css",
+    "main.js": "/games-arena/static/js/main.8dd0dc8e.chunk.js",
+    "main.js.map": "/games-arena/static/js/main.8dd0dc8e.chunk.js.map",
+    "runtime-main.js": "/games-arena/static/js/runtime-main.0fdef64d.js",
+    "runtime-main.js.map": "/games-arena/static/js/runtime-main.0fdef64d.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/games-arena/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.ef82b97d.chunk.js": "/games-arena/static/js/2.ef82b97d.chunk.js",
+    "static/js/2.ef82b97d.chunk.js.map": "/games-arena/static/js/2.ef82b97d.chunk.js.map",
+    "index.html": "/games-arena/index.html",
+    "precache-manifest.848a07a02cd7d4c192ea0bf1cb32dc37.js": "/games-arena/precache-manifest.848a07a02cd7d4c192ea0bf1cb32dc37.js",
+    "service-worker.js": "/games-arena/service-worker.js",
+    "static/css/2.f3cffc9e.chunk.css.map": "/games-arena/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.661548ac.chunk.css.map": "/games-arena/static/css/main.661548ac.chunk.css.map",
+    "static/js/2.ef82b97d.chunk.js.LICENSE.txt": "/games-arena/static/js/2.ef82b97d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.852105bc.js",
+    "static/js/runtime-main.0fdef64d.js",
     "static/css/2.f3cffc9e.chunk.css",
     "static/js/2.ef82b97d.chunk.js",
     "static/css/main.661548ac.chunk.css",
-    "static/js/main.335fdafb.chunk.js"
+    "static/js/main.8dd0dc8e.chunk.js"
   ]
 }
