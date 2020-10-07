@@ -7,7 +7,9 @@ const Header = () => {
   const { onFilter } = state;
   return (
     <>
-      <h1 onClick={() => onFilter("All")}>Games Arena</h1>
+      <h1 id="Header" onClick={() => onFilter("All")}>
+        Games Arena
+      </h1>
       <Filter />
     </>
   );

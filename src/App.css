@@ -6,6 +6,15 @@
   background-color: antiquewhite;
 }
 
+#Header {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+#Header:hover {
+  text-shadow: 2px 2px 2px gray;
+}
+
 .Header {
   height: 30vh;
   display: flex;
@@ -39,4 +48,18 @@
 .FilterArea button {
   margin: 5px;
   width: 100px;
+  background-color: inherit;
+  border-radius: 10px;
+  border-width: 3px;
+  font-weight: 500;
+}
+
+.FilterArea button:hover {
+  background-color: #d7e6fa;
+}
+
+@media only screen and (max-width: 600px) {
+  [class*="GameItem"] {
+    width: 50%;
+  }
 }

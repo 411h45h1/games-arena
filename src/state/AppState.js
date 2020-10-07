@@ -16,7 +16,6 @@ const AppState = (props) => {
     if (!apiData) {
       onApi();
     }
-    apiData && console.log(apiData);
   }, [apiData, filteredList]);
 
   const onApi = () => {
